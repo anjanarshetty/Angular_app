@@ -1,0 +1,56 @@
+img{
+    height:120px;
+    width:120px;
+    margin-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:20px;
+}
+.prodimg{
+    height:200px;
+    width:200px;
+    margin-left:40px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+
+}
+
+#instock{
+    color:rgb(255, 255, 255) ;
+    background-color:rgb(13, 84, 13);
+    border-radius: 5px;
+    float: right;
+    width: 100px;
+}
+
+#outofstock{
+    color:rgb(255, 255, 255) ;
+    background-color:rgb(173, 44, 19);
+
+}
+#grain{
+    background-color: rgb(14, 108, 14);
+    
+}
+#register{
+    color:rgb(251, 251, 251);
+    border-radius:10px;
+    background-color:peach;
+    box-shadow:10px 10px 5px rgb(255, 254, 254);
+    text-shadow:rgb(207, 226, 218);
+    border-style:solid;
+    border-color:rgb(252, 252, 252);
+    border-width:2px;
+    outline-offset:5px;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align:center;
+}
+
+button:hover{
+    background-color: white;
+    border-color: green;
+    color: black;
+}

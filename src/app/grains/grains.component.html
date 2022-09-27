@@ -1,0 +1,35 @@
+<div class="card-body col-lg-12">
+  <div class="row" style="margin-top:10px;border-style:solid;border-color:black;border-radius:15px;">
+      <div class="col-lg-3">
+          <!--Property Binding-->
+          <img [src]="product.img">
+      </div>
+      <div class="col-lg-9" style="margin-top:20px;">
+          <!--Interpolation Binding-->
+          <div>
+              Product: <b>{{product.pname | uppercase}}</b>
+              <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
+          </div>
+       
+          Price: <b>{{product.price | currency:'INR'}}</b>
+         <!-- <button  type="button" onclick="book()" id="instock"class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            ADD TO CART
+          </button><br>-->
+          <button type="button" id="instock" class="btn btn-dark m-3" (click)="addToCart(product)" style="width:150px;border-radius:10px;">Add to Cart</button>
+         
+         <!-- <app-counter></app-counter>-->
+          <br>
+          Quantity:
+          <input type="number" name="quantity" [(ngModel)]="quantity" style="width:50px;border-radius:10px;" min="1" max="25">
+                 
+          <br><br>
+          <hr>
+          <div [hidden]="productDetail">
+              Description: {{product.pdesc}}
+              <br>
+              <br>
+          </div>
+      </div>
+  </div>
+
+  

@@ -1,0 +1,89 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <!--STRING INTERPOLATION-->
+    <!--Property binding-->
+    <a class="navbar-brand" routerLink="#">
+      <img [src]="logo" alt="FARM-EASY"></a>
+      <h5 style="color:green; ">FARM-EASY</h5>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="home">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="register" >Register</a>
+        </li> 
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contact">Contact Us</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" routerLink="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" *ngIf="auth">
+            Schemes
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" target="_blank" href="https://www.india.gov.in/information-national-livestock-mission">Information on National Livestock Mission</a></li>
+            <li><a class="dropdown-item" target="_blank" href="https://www.india.gov.in/information-agriclinic-and-agribusiness-centres-scheme">Information on Agriclinic and Agribusiness Centres Scheme</a></li>
+            <li><a class="dropdown-item" target="_blank" href="https://www.india.gov.in/agriculture-infrastructure-fund-aif-agri-infrastructure-loan">Agriculture Infrastructure Fund (AIF) in Agri Infrastructure Loan</a></li>
+            <li><a class="dropdown-item" target="_blank" href="https://www.india.gov.in/agricultural-marketing-infrastructure-ami-agri-infrastructure-loan?page=2">Agricultural Marketing Infrastructure (AMI) in Agri Infrastructure Loan</a></li>
+            <li><a class="dropdown-item" target="_blank" href="https://www.india.gov.in/agri-clinic-and-agribusiness-centers-scheme-acabc-agri-infrastructure-loan">Agri-Clinic and Agribusiness Centers Scheme (ACABC) in Agri Infrastructure Loan</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a data-bs-target="#exampleModal" routerLink="scheme"><p style="background-color:rgb(20, 79, 33);margin-bottom: 0px;color: white;text-align: center;padding: 4px;">APPLY</p></a></li>
+            
+          </ul>
+        </li>
+
+        
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="cards" *ngIf="auth" >Cards</a>
+        </li>
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link " routerLink="grains" role="button" data-bs-toggle="dropdown" *ngIf="auth" >
+            Shop
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="prod_details" *ngIf="auth">Products</a>
+        </li>
+
+        
+       <!---<li>
+        <a class="nav-link" routerLink='cartitem' style="height:5px;border:none;" role="button" >CART</a>
+      </li>-->
+    
+      </ul>
+     
+    <!--Search-->
+      <form class="d-flex" *ngIf="auth">
+        <input type="text" #productname placeholder="Enter product name" style="border-color: green;margin-right: 10px;" >&nbsp;
+        <!--EVENT BINDING-->
+        <button class="btn btn-outline-success" type="submit" (click)="search_product(productname.value);productname.value=''" style="border-radius:10px;margin-right: 10px;" >Search</button>
+        <br>
+        &nbsp;&nbsp;&nbsp;
+        <app-search [product]="productentered"></app-search>
+      <!--cart-->
+        <button routerLink='cartitem' style="height:5px;border:none;padding-top: 10px;"  >
+          <span class="fa fa-cart-plus" style="font-size:20px;color:rgb(0, 0, 0)"><sup class="text-warning" style="font-size:10px;margin-left: 3px;color: green;" >{{cartCount}}</sup></span>
+        </button> &nbsp;&nbsp;&nbsp;
+        
+      </form>
+      <!--Logout-->
+      <li class="nav-item">
+        <a class="nav-link" type="submit" class="btn btn-outline-success" style="border-radius:5px;color:rgb(0, 0, 0);" href="login" *ngIf="auth">Logout</a>
+      </li>
+     
+    </div>
+  </div>
+</nav>
+
+
+
+

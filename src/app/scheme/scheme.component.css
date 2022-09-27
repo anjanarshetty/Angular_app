@@ -1,0 +1,19 @@
+input:hover{
+    background-color: rgb(215, 232, 215);
+}
+textarea:hover{
+    background-color: rgb(215, 232, 215);
+}
+
+body{
+    background-image: url("https://wallpaperaccess.com/full/1164042.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+label.color{
+    text-shadow: 2px 2px 2px white;
+}
+button:hover{
+    background-color: rgb(29, 82, 29);
+    color:white;
+}

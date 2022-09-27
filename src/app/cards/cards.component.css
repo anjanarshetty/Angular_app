@@ -1,0 +1,11 @@
+#instock{
+    color:rgb(255, 255, 255) ;
+    background-color:rgb(13, 84, 13);
+    border-radius: 5px;
+}
+
+#outofstock{
+    color:rgb(255, 255, 255) ;
+    background-color:rgb(193, 63, 37);
+
+}

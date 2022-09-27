@@ -1,0 +1,76 @@
+<h4 style="background-color: rgb(14, 95, 14);color:white;padding:5px;text-align: center;">Hello!! Welcome to FARM-EASY</h4>
+<!--IMAGE CAROUSEL-->
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="https://wallpapercave.com/wp/wp3069379.jpg" class="d-block w-100" alt="CSS">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="color: white; text-shadow:white 2px;">GRAINS</h5>
+          
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="https://wallpapercave.com/wp/wp2024187.jpg" class="d-block w-100" alt="JS">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: white; text-shadow:white 2px;">LET'S FARM FOR THE FUTURE</h5>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="https://regenerationinternational.org/wp-content/uploads/2016/04/cabbage-field-farmer-e1448976694631.jpg" class="d-block w-100" alt="JS">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: white; text-shadow:white 2px;">VEGETABLES AND FRUITS</h5>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="https://th.bing.com/th/id/R.3f2437949688c5608bde6518f03fc3e1?rik=pt8Lp9b6MHX9rg&riu=http%3a%2f%2f4.bp.blogspot.com%2f-673MBCQpkCg%2fVWGx0HMqVNI%2fAAAAAAACBOg%2fsH4Cgd24mqU%2fs1600%2fpesticides_spraying_mask_735_350-2.jpg&ehk=hNg8OoSaGSyA8rYsxC%2fJtDszF8Hvk%2bFkpEtl2JvRhu8%3d&risl=&id=ImgRaw&r=0" class="d-block w-100" alt="JS">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: white; text-shadow:white 2px;">FERTILIZERS</h5>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="https://thumbs.dreamstime.com/b/plowing-rice-field-vietnamese-farmers-little-kind-tractor-helps-to-get-work-done-113033116.jpg" class="d-block w-100" alt="JQ">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: white; text-shadow:white 2px;">MACHINERIES</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+
+   <!--ALERT-->
+   <div class="alert alert-info alert-dismissible fade show" role="alert" style="color:rgb(226, 11, 11); text-align: center;font-size: large;">
+    <marquee><strong >Apply for the Schemes before 15th October 2022</strong></marquee>
+    </div>
+    
+ 
+ 
+ <h4 style="color:rgb(21, 61, 13);">Schemes Available</h4>
+  <ul *ngIf="isVisible">
+    <!--Access the class products with ngClass-->
+    <!--Property Binding-->
+    <li *ngFor="let product of Products" [ngClass]="prod">
+        {{product.productname}}
+    </li>
+  </ul>
+  <br>
+  <!--Event to hide product details-->
+<hr>
+

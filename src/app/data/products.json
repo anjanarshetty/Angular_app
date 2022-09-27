@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "pname":"Pottasium",
+        "pdesc":"Pottasium fertilizer",
+        "price":50,
+        "img":" "
+    },
+    {
+        "id":2,
+        "pname":"Pottasium",
+        "pdesc":"Pottasium fertilizer",
+        "price":50,
+        "img":" "
+    },
+    {
+        "id":3,
+        "pname":"Pottasium",
+        "pdesc":"Pottasium fertilizer",
+        "price":50,
+        "img":" "
+    },
+    {
+        "id":4,
+        "pname":"Pottasium",
+        "pdesc":"Pottasium fertilizer",
+        "price":50,
+        "img":" "
+    },
+    {
+        "id":5,
+        "pname":"Pottasium",
+        "pdesc":"Pottasium fertilizer",
+        "price":50,
+        "img":" "
+    }
+
+]

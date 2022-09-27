@@ -1,0 +1,176 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "pname": "Chilly Seed",
+      "pdesc": "Hybrid Green Chilly Seed. Per packet 100grams.",
+      "price": "200",
+      "img": "https://5.imimg.com/data5/XK/AZ/ML/SELLER-32672201/hybrid-green-chili-seeds-500x500.jpg"
+    },
+    {
+      "id": 2,
+      "pname": "Bitter guord seed",
+      "pdesc": "Momordica charantia Bitter Guord. Per packet 100grams.",
+      "price": 200,
+      "img": "https://tiimg.tistatic.com/fp/3/003/751/bittergourd-seeds-194.jpg",
+      "link": "https://youtu.be/pf07w8CNRJU"
+    },
+    {
+      "id": 3,
+      "pname": "Arecanut Plant",
+      "pdesc": "South Kanaka Arecanut plant",
+      "price": 400,
+      "img": "https://th.bing.com/th/id/OIP.TRHjMN-fnrb03V4z-0TxzgHaHb?id=ImgDet&rs=1",
+      "link": "https://youtu.be/pf07w8CNRJU"
+    },
+    {
+      "id": 4,
+      "pname": "Ladies Finger Seed",
+      "pdesc": "Hybrid Ladies Finger Seeds. Per packet 100grams.",
+      "price": 200,
+      "img": "https://5.imimg.com/data5/DM/DK/ZM/SELLER-31351244/ladies-finger-seeds-500x500.jpg",
+      "link": "https://youtu.be/pf07w8CNRJU"
+    },
+    {
+      "id": 5,
+      "pname": "Coconut Plant",
+      "pdesc": "Malayan Yellow Dwarf Coconuts",
+      "price": 500,
+      "img": "https://th.bing.com/th/id/OIP.N9bwMl38_Zn36CbomC8iFgHaJ4?id=ImgDet&w=720&h=960&rs=1",
+      "link": "https://youtu.be/pf07w8CNRJU"
+    },
+    {
+      "id": 6,
+      "pname": "Neem Cake Powder",
+      "pdesc": "Forgreen Organic Neem Cake Powder - Natural Fertilizer/ Pesticide 950 G.",
+      "price": 150,
+      "img": "https://th.bing.com/th/id/OIP.6etXECzZVvViIVb5BolkIwHaIJ?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 7,
+      "pname": "Glyphosate",
+      "pdesc": "Glypho- glyphosate 41 SL",
+      "price": 320,
+      "img": "https://i5.walmartimages.com/asr/1241d7f8-a4b1-4b59-9aee-83f41163371c_2.22307d703c78e2a62e6ea1e6da59a5d4.jpeg"
+    },
+    {
+      "id": 8,
+      "pname": "Goat Manure",
+      "pdesc": "Goat Manure-Organic Fertilizer (5 Kg)-Cocogarden",
+      "price": 449,
+      "img": "https://th.bing.com/th/id/OIP.Ei-qDINV_Bu_SAw7Dys7eAHaH5?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 9,
+      "pname": "Phosphate",
+      "pdesc": "Evana Organic Fertilizer Super Phosphate (1 Kg)",
+      "price": 179,
+      "img": "https://th.bing.com/th/id/OIP.v5qBhNthl0CjrjHLBzAMfQAAAA?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 10,
+      "pname": "Seaweed Fertilizer",
+      "pdesc": "Seaweed Fertilizer 500ML",
+      "price": 1000,
+      "img": "https://th.bing.com/th/id/OIP.r_lONf2TWJJ9u576WO4QfQHaIq?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 11,
+      "pname": "Electric Garden Tiller",
+      "pdesc": "Scotts 16 In. Electric Garden Tiller/Cultivator",
+      "price": 3500,
+      "img": "https://i5.walmartimages.com/asr/7daaa347-f646-4092-b237-6789e89e5a7c_1.7188425d285ddf9d597faab5d391b416.jpeg"
+    },
+    {
+      "id": 12,
+      "pname": "Hand cultivator tool",
+      "pdesc": "Truper TRP30030 4-Tine Cultivator with Fiberglass Handle",
+      "price": 800,
+      "img": "https://c.shld.net/rpx/i/s/i/spin/image/spin_prod_878285312??hei=64&wid=64&qlt=50"
+    },
+    {
+      "id": 13,
+      "pname": "Powrah",
+      "pdesc": "800Benaa :: Powrah With Handle HD 3LB",
+      "price": 600,
+      "img": "https://th.bing.com/th/id/OIP.rYzhLpsD7k5I0TODjv-fYQHaGy?id=ImgDet&w=1200&h=1100&rs=1"
+    },
+    {
+      "id": 14,
+      "pname": "Shovels and Favda Wholesaler",
+      "pdesc": "Shovels and Favda Wholesaler",
+      "price": 1100,
+      "img": "https://th.bing.com/th/id/OIP.xU1NuDlrlR_nOkEaYiV6ngHaHa?id=ImgDet&w=1504&h=1504&rs=1"
+    }
+  ],
+  "users": [
+    {
+      "username": "anjana",
+      "useremail": "rshettyanjana@gmail.com",
+      "password": "Anjana@123",
+      "mobile": "9895859435",
+      "id": 1
+    },
+    {
+      "username": "Admin",
+      "useremail": "admin@gmail.com",
+      "password": "admin@123",
+      "mobile": "9876543210",
+      "id": 2
+    },
+    {
+      "username": "john",
+      "useremail": "john@gmail.com",
+      "password": "john@123",
+      "mobile": "9876543210",
+      "id": 3
+    },
+    {
+      "username": "steve",
+      "useremail": "steve@gmail.com",
+      "password": "steve@123",
+      "mobile": "9876543210",
+      "id": 4
+    },
+    {
+      "username": "abcd",
+      "useremail": "abcd@gmail.com",
+      "password": "abcd1234",
+      "mobile": "1234567890",
+      "id": 5
+    },
+    {
+      "username": "anu",
+      "useremail": "anu@gmail.com",
+      "password": "anu123",
+      "mobile": "1234598765",
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "id": 2,
+      "pname": "Bitter guord seed",
+      "pdesc": "Momordica charantia Bitter Guord. Per packet 100grams.",
+      "price": 200,
+      "img": "https://tiimg.tistatic.com/fp/3/003/751/bittergourd-seeds-194.jpg",
+      "quantity": 4
+    },
+    {
+      "id": 3,
+      "pname": "Arecanut Plant",
+      "pdesc": "South Kanaka Arecanut plant",
+      "price": 400,
+      "img": "https://th.bing.com/th/id/OIP.TRHjMN-fnrb03V4z-0TxzgHaHb?id=ImgDet&rs=1",
+      "quantity": 3
+    },
+    {
+      "id": 1,
+      "pname": "Chilly Seed",
+      "pdesc": "Hybrid Green Chilly Seed. Per packet 100grams.",
+      "price": 100,
+      "img": "https://5.imimg.com/data5/XK/AZ/ML/SELLER-32672201/hybrid-green-chili-seeds-500x500.jpg",
+      "quantity": 5
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "pname":"Chilly Seed",
+        "pdesc":"Hybrid Green Chilly Seed. Per packet 100grams.",
+        "price":100,
+        "img":"https://5.imimg.com/data5/XK/AZ/ML/SELLER-32672201/hybrid-green-chili-seeds-500x500.jpg",
+        "link":"https://youtu.be/pf07w8CNRJU"
+    },
+    {
+        "id":2,
+        "pname":"Bitter guord seed",
+        "pdesc":"Momordica charantia Bitter Guord. Per packet 100grams.",
+        "price":200,
+        "img":"https://tiimg.tistatic.com/fp/3/003/751/bittergourd-seeds-194.jpg",
+        "link":"https://youtu.be/pf07w8CNRJU"
+    },
+    {
+        "id":3,
+        "pname":"Arecanut Plant",
+        "pdesc":"South Kanaka Arecanut plant",
+        "price":400,
+        "img":"https://th.bing.com/th/id/OIP.TRHjMN-fnrb03V4z-0TxzgHaHb?id=ImgDet&rs=1",
+        "link":"https://youtu.be/pf07w8CNRJU"
+    },
+    {
+        "id":4,
+        "pname":"Ladies Finger Seed",
+        "pdesc":"Hybrid Ladies Finger Seeds. Per packet 100grams.",
+        "price":200,
+        "img":"https://5.imimg.com/data5/DM/DK/ZM/SELLER-31351244/ladies-finger-seeds-500x500.jpg",
+        "link":"https://youtu.be/pf07w8CNRJU"
+    },
+    {
+        "id":5,
+        "pname":"Coconut Plant",
+        "pdesc":"Malayan Yellow Dwarf Coconuts",
+        "price":500,
+        "img":"https://th.bing.com/th/id/OIP.N9bwMl38_Zn36CbomC8iFgHaJ4?id=ImgDet&w=720&h=960&rs=1",
+        "link":"https://youtu.be/pf07w8CNRJU"
+    }
+
+]

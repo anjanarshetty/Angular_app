@@ -1,0 +1,151 @@
+<div class="container">
+  <div class="row">
+    <div class="col col-3 col-sm-6 col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card_img" src="https://th.bing.com/th/id/OIP.3CTdXcNtsQQl0UVMiMHO2gHaHd?id=ImgDet&rs=1" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="color: rgb(5, 80, 28);">GRAINS</h5>
+          <p class="card-text">The grains(Rice, Tomato, Gram seeds, chilly) and plants(Arecanut, coconut, cashew) are available</p>
+          <button type="button" id="instock"class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            InStock
+          </button>
+
+        </div>
+      </div>
+    </div>
+    <div class="col col-3 col-sm-6 col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card_img" src="https://5.imimg.com/data5/SELLER/Default/2021/5/NQ/GA/MJ/2259091/power-weeder-tiller-500x500.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"  style="color: rgb(5, 80, 28);">MACHINERIES</h5>
+          <p class="card-text">Machineries like Tractor, Single Plough, Water pump, Rice harvester are available. </p>
+          <button type="button" id="outofstock" class="btn btn-primary"  data-bs-target="#exampleModal">
+            Out Of Stock
+          </button>
+
+        </div>
+      </div>
+    </div>
+    <div class="col col-3 col-sm-6 col-md-3">
+      <div class="card" style="width: 18rem;">
+        <img class="card_img" src="https://5.imimg.com/data5/XE/GO/ML/SELLER-535538/trich-on-fertilizers-1000x1000.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"  style="color: rgb(5, 80, 28);">FERTILIZERS</h5>
+          <p class="card-text">Fertilizers like glyphosate, Acephate, Propoxur, Metaldehyde, Boric Acid, Malathion are available.</p>
+          
+          <!-- Button trigger modal -->
+          <button type="button"  id="instock" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            InStock
+          </button>
+        </div>
+      </div>
+    </div>
+ 
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Farmers details</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form >
+              <div class="mb-3">
+                <label class="form-label">Farmer ID</label>
+                <input type="number" class="form-control" formControlName="pname" placeholder="Enter ID" name="username" required>
+              </div> 
+
+              <div class="mb-3">
+                <label class="form-label">Farmer Name</label>
+                <input type="pname" class="form-control" formControlName="pname" placeholder="Enter Username" name="username" required>
+              </div>
+              
+             <!--<div class="mb-3">
+                <label>Mark the Required Products</label><br>
+                <input type="checkbox" value="grains"><label>Grains</label><br>
+                <input type="checkbox" value="Fertilizers"><label>Fertilizers</label><br>
+                <input type="checkbox" value="Machineries"><label>Machineries</label><br>
+              </div>-->
+
+              <div class="mb-3">
+                <label class="form-label">Phone No</label>
+                <input type="number" class="form-control" formControlName="img" placeholder="Enter Phone number" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Any Comments</label>
+                <input type="pdesc" class="form-control" formControlName="pdesc" placeholder="Enter ">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="cancel" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button"  class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!--MODAL POPUP-->
+<!-- Modal -->
+<!--<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">REGISTER</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <form class="mt-5" >
+          <h2 class="text-center secondary ms-mb-m main-heading ng-binding">Signup with Farmeasy</h2>
+          <br>
+          <div class="form-group">
+              <input type="text" class="form-control" name="username" formControlName="username"
+                  placeholder="Enter Username">
+              <label class="error ng-binding" *ngIf="submitted && f['username'].invalid">Name is required
+              </label>
+          </div>
+          <br>
+          <div class="form-group">
+              <input type="email" class="form-control" name="useremail" formControlName="useremail"
+                  placeholder="Enter email">
+              <label class="error ng-binding" *ngIf="submitted && f['useremail'].invalid">Email is required
+                  </label>
+              <label class="error ng-binding" *ngIf="submitted && f['useremail'].errors?.['useremail']">Email must
+                  be a
+                  valid email address</label>
+          </div>
+          <br>
+          <div class="form-group">
+              <input type="password" class="form-control" name="password" formControlName="password"
+                  placeholder="Enter password">
+              <label class="error ng-binding" *ngIf="submitted && f['password'].errors?.['password']">Password is
+                  required</label>
+              <label class="error ng-binding" *ngIf="submitted && f['password'].errors?.['minlength']">Password
+                  must be at least 6 characters</label>
+          </div>
+          <br>
+          <div class="form-group">
+              <input type="text" class="form-control" name="mobile" formControlName="mobile"
+                  placeholder="Enter Mobile number">
+              <label class="error ng-binding" *ngIf="submitted && f['mobile'].errors?.['required']">Mobile number
+                  is
+                  required</label>
+
+          </div>
+          <br>
+          <button type="submit" class="btn btn-warning">Register</button>
+          <div class="text-center ms-mt-x ms-mb-m register-already-account" style="padding-top:30px">
+              <span class="ms-fs-12 ng-binding">Already have an account?
+                  <a class="secondary ng-binding" href="login">
+                      Login!
+                  </a>
+              </span>
+          </div>
+      </form>-->

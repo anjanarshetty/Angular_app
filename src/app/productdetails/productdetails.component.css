@@ -1,0 +1,15 @@
+.prodimg{
+    height:70px;
+    width:70px;
+    margin-left:60px;
+    margin-top:5px;
+    margin-bottom:5px;
+    border-radius:5px;
+
+}
+tr:hover{
+    background-color: rgb(233, 247, 233);
+}
+input:hover{
+    background-color: rgb(220, 240, 220);
+}

@@ -1,0 +1,53 @@
+input {
+    width: 60%;
+    margin-left: 50px;
+    background-color: rgb(207, 232, 207);
+    color: black;
+}
+
+label {
+    margin-left: 50px;
+}
+h4{
+    margin-left: 600px;
+
+}
+
+form {
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 70%;
+    border-style: inset;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 2px 3px 4px rgb(84, 84, 84);
+}
+
+form:hover {
+    color: rgb(174, 155, 11);
+    background-color: rgb(44, 44, 44);
+    transform:scale(1.1);
+
+}
+
+input:hover{
+    background-color: white;;
+}
+
+button {
+    margin-left: 150px;
+
+
+}
+
+span {
+    width: 60%;
+    margin-left: 100px;
+}
+body{
+    background-image: url("https://cdn.arstechnica.net/wp-content/uploads/2016/09/Corn.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+}

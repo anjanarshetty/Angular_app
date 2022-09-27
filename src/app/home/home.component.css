@@ -1,0 +1,40 @@
+img {
+    height: 500px;
+  }
+  /*access the style through class attribute*/
+  .stylebinding1 {
+    color: red;
+    background-color: beige;
+  }
+  
+  /* *ngFor and *ngSwitchCase*/
+  .red {
+    color: red;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .blue{
+    color: rgb(48, 48, 223);
+  }
+  /*Styling using ngClass*/
+  .blue{
+    color:rgb(8, 69, 17);
+  }
+  .size{
+    font-size: 18px;
+  }
+
+  #instock{
+    color:rgb(255, 255, 255) ;
+    background-color:rgb(13, 84, 13);
+    border-radius: 5px;
+}
+
+#outofstock{
+    color:rgb(255, 255, 255) ;
+    background-color:rgb(193, 63, 37);
+
+}
